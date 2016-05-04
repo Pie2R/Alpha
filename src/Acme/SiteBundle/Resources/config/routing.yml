@@ -1,0 +1,24 @@
+acme_homepage:
+    path:     /
+    defaults: { _controller: AcmeSiteBundle:Page:homepage }
+    methods:  [GET]
+
+
+acme_reference:
+    path:     /reference
+    defaults: { _controller: AcmeSiteBundle:Page:reference }
+    methods:  [GET]
+
+
+acme_registration:
+    path:     /register
+    defaults: { _controller: AcmeSiteBundle:Registration:register }
+    methods:  [GET]
+
+
+acme_solution:
+    path:     /solution
+    defaults: { _controller: AcmeSiteBundle:Page:solution }
+    methods:  [GET]
+
+

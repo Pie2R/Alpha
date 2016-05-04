@@ -1,0 +1,7 @@
+acme_site:
+    resource: "@AcmeSiteBundle/Resources/config/routing.yml"
+    prefix:   /
+
+app:
+    resource: "@AppBundle/Controller/"
+    type:     annotation
